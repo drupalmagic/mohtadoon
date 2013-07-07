@@ -1,0 +1,19 @@
+name = Almohtadoon Theme
+description = Three coloum layout theme
+core = 7.x
+engine = phptemplate
+
+
+stylesheets[all][] = style.css
+
+; Theme regions
+
+regions[social_btns] = Social Buttons
+regions[header] = Header
+regions[search] = Search
+regions[mainmenu] = Main Menu
+regions[slider] = Slider
+regions[right_side] = Right Side
+regions[front_page] = Front Page
+regions[content] = Content
+regions[footer] = Footer

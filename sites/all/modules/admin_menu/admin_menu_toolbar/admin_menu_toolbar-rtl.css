@@ -1,0 +1,11 @@
+#admin-menu li.admin-menu-shortcuts-active ul {
+  display: block !important;
+  right: 20px !important;
+  width: auto;
+}
+#admin-menu li.admin-menu-shortcuts ul {
+  background-color: #666;
+  right: 20px !important;
+  padding: 5px 10px;
+  width: auto;
+}
