@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'almohtadoon',
       'username' => 'root',
-      'password' => 'w_INC7_5',
+      'password' => '123',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
