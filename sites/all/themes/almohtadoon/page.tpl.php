@@ -8,7 +8,7 @@
         <?php endif; ?>
       </div>
       
-      <a href="" class="donate"></a>
+      <a href="<?php print url('node/26', array('absolute' => TURE)); ?>" class="donate"></a>
       
       <div id="menu">
       	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
