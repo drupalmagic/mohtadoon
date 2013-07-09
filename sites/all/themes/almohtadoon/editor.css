@@ -1,0 +1,14 @@
+/*
+ *	Editor Styles
+ *
+ */
+.questionhead {
+	background: #f3f3f3;
+	padding: 5px 5px 3px 5px;
+	border-right: 15px solid #b5b5b5;
+	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	color: #004d6d;
+}
+.questionanswer {
+	padding: 5px 15px;
+}
