@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face
+{
+	font-family: "GE Dinar One";
+	src: url('GE_Dinar_One/GE_Dinar_One_Medium.otf');
+}
+
 *{
 	padding: 0px;
 	margin: 0px;
@@ -13,6 +19,11 @@ body{
 	direction: rtl;	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "GE Dinar One";
+	color: #004d6d;
 }
 
 #wrapper{
@@ -50,7 +61,7 @@ body{
 }
 
 #header .social-network a{
-	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
 	position: relative;
 	top: 7px;
 	right: 10px;
@@ -164,7 +175,7 @@ body{
 	text-indent: -9999px;
 }
 
-#header #menu .choose-story, #main-menu li:nth-child(2) span{
+#header #menu .choose-story, #main-menu li:nth-child(2) a{
 	background-image: url(images/choose-story-menu.png);
 	background-repeat: no-repeat;
 	width: 80px;
@@ -266,7 +277,7 @@ body{
 }
 
 #container .right-section .title{
-	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	color: #004d6d;
 	font-weight: normal;
@@ -298,7 +309,7 @@ body{
 	float: right;
 	position: relative;
 	top: 15px;
-	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
 	right: 10px;
 	width: 135px;
 }
@@ -408,10 +419,10 @@ div.sharing-buttons iframe {
 	float: left; margin: 0 20px 20px 0;
 }
 .node .field {
-	font-size: 15px;	line-height: 1.3em;
+	font-size: 15px;	font-weight: bold;
 }
 .node p {
-	margin-bottom: 10px;
+	margin-bottom: 10px;	line-height: 1.5em;
 }
 .submitted {
 	font-family: tahoma; font-size: 12px; padding: 15px 5px;
@@ -429,4 +440,86 @@ div.sharing-buttons iframe {
 	border: 1px solid #999;
 	padding: 5px 10px;
 	border-radius: 5px;
+}
+/* donation form */
+form.webform-client-form .form-text {
+	background: url("images/text-input.jpg") no-repeat;
+	width: 215px;
+	height: 37px;
+	padding: 0 10px;
+	border: 0;
+}
+form.webform-client-form label {
+	display: inline-block;
+	margin-right: 1em;
+	width: 177px !important;
+	text-align: left;
+	margin-left: 20px;
+	font-family: "GE Dinar One";
+	color: #999;
+}
+form.webform-client-form .form-actions {
+	padding-right: 220px;
+}
+form.webform-client-form .form-actions input {
+	background: url("images/submit-btn.jpg") no-repeat;
+	width: 57px;
+	height: 28px;
+	text-indent: -9999px;
+	display: inline-block;
+}
+
+/* find story page style */
+#container .big-section .box {
+	width: 292px;
+}
+#container .right-big-section .box {
+	width: 701px;
+	height: 240px;
+	display: block;
+	background-color: #f3f3f3;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#container .right-big-section .box .img-place {
+	float: right;
+	width: 220px;
+	height: 240px;
+	display: block;
+	position: relative;
+}
+#container .right-big-section .box .title {
+	float: right;
+	position: relative;
+	top: 18px;
+	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	text-decoration: underline;
+	right: 10px;
+	color: #004d6d;
+	width: 455px;
+}
+#container .right-big-section .box .title a { 
+	font-size: 18px;
+}
+#container .right-big-section .box p {
+	width: 455px;
+	display: block;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	right: 10px;
+	margin-top: 10px;
+}
+#container .right-big-section .box .sharing-buttons {
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+
+.node-sharing {
+	margin-bottom: 10px;
 }

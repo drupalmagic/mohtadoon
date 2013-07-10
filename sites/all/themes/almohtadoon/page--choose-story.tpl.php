@@ -1,7 +1,7 @@
 <div id="wrapper">
   <div id="header">
   	<div class="logo">
-     <a href="<?php print $front_page; ?>"><img src="<?php print $GLOBALS['base_url']; ?>//sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
+     <a href="<?php print $front_page; ?>"><img src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
     </div>      <div class="social-network">
       	<?php if($page['social_btns']): ?>
           <?php print render($page['social_btns']); ?>
@@ -13,6 +13,12 @@
       <div id="menu">
       	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
       </div>
+  </div>
+
+  <div class="quran-banner">
+  <span>
+  	بسم الله الرحمن الرحيم   وَإِنْ يُرِيدُوا أَنْ يَخْدَعُوكَ فَإِنَّ حَسْبَكَ اللَّهُ هُوَ الَّذِي أَيَّدَكَ بِنَصْرِهِ وَبِالْمُؤْمِنِينَ * وَأَلَّفَ بَيْنَ قُلُوبِهِمْ لَوْ أَنْفَقْتَ مَا فِي الْأَرْضِ جَمِيعًا مَا أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَكِنَّ اللَّهَ أَلَّفَ بَيْنَهُمْ إِنَّهُ عَزِيزٌ حَكِيمٌ
+      </span>
   </div>
 
   <div class="search-bar">
@@ -27,16 +33,15 @@
       <a href="" class="publishing-story"></a>
   </div>
 
-  <div id="content">
-    <?php print render($title_prefix); ?>
-    <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-    <?php print render($title_suffix); ?>
-    <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
-
-    <?php if($page['content']): ?>
-      <?php print render($page['content']); ?>
-    <?php endif; ?>
-  </div>          
+  <div id="container">
+     
+    <div class="left-section big-section" style="width: 940px;">
+     	<?php if($page['content']): ?>
+        <?php print render($page['content']); ?>
+      <?php endif; ?>
+    </div>
+      
+  </div>        
 
   <div style="clear:both; height: 5px;"></div>
 

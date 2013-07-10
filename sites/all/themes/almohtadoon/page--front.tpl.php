@@ -1,14 +1,14 @@
 <div id="wrapper">
   <div id="header">
   	<div class="logo">
-     <a href="<?php print $front_page; ?>"><img src="sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
+     <a href="<?php print $front_page; ?>"><img src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
     </div>      <div class="social-network">
       	<?php if($page['social_btns']): ?>
           <?php print render($page['social_btns']); ?>
         <?php endif; ?>
       </div>
       
-      <a href="<?php print url('node/26', array('absolute' => TURE)); ?>" class="donate"></a>
+      <a href="<?php print url('node/26', array('absolute' => true)); ?>" class="donate"></a>
       
       <div id="menu">
       	<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
