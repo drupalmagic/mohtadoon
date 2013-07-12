@@ -5,6 +5,7 @@ engine = phptemplate
 
 
 stylesheets[all][] = style.css
+stylesheets[all][] = editor.css
 
 ; Theme regions
 

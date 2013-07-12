@@ -1,7 +1,10 @@
+<?php if(arg(0) == 'node' && (arg(1) == 'add' || arg(1) == 'edit' )): ?>
+<link rel="stylesheet" type="text/css" href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/form.css">
+<?php endif; ?>
 <div id="wrapper">
   <div id="header">
   	<div class="logo">
-     <a href="<?php print $front_page; ?>"><img src="<?php print $GLOBALS['base_url']; ?>//sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
+     <a href="<?php print $front_page; ?>"><img src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/images/almohtadoon-logo.png" /></a>
     </div>      <div class="social-network">
       	<?php if($page['social_btns']): ?>
           <?php print render($page['social_btns']); ?>
@@ -18,13 +21,8 @@
   <div class="search-bar">
     <?php if($page['search']): ?>
       <?php print render($page['search']); ?>
-    <?php endif; ?>
-  	<form>
-          <input type="text" name="search" class="search-box" />
-          <input type="submit" name="submit" class="search-btn" value=" " />
-      </form>
-      
-      <a href="" class="publishing-story"></a>
+    <?php endif; ?>      
+      <a href="<?php print url('node/add/stories', array('absolute' => true)); ?>" class="publishing-story"></a>
   </div>
 
   <div id="content">

@@ -19,6 +19,7 @@ body{
 	direction: rtl;	
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -308,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 #container .left-section .box .title{
 	float: right;
 	position: relative;
-	top: 15px;
+	top: 6px;
 	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
 	right: 10px;
 	width: 135px;
@@ -327,9 +328,9 @@ h1, h2, h3, h4, h5, h6 {
 	float: right;
 	font-size: 11px;
 	font-weight: bold;
-	 position: relative;
-	 top: 15px;
-	 right: 10px;
+  position: relative;
+  top: 8px;
+  right: 10px;
 }
 
 #container .left-section .box .sharing-buttons{
@@ -358,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #616060;	
 }
 
-.search-box {
+.search-box, #search-block-form .form-text, #search-form .form-text {
 	float: right;
 	position: relative;
 	top: 9px;
@@ -368,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #f4f4f4;
 	background-color: #fafafa;
 	width: 530px;
-	height: 30px;
+	height: 22px;
 	-webkit-border-radius: 7px;
 	-moz-border-radius: 7px;
 	border-radius: 7px;
@@ -382,7 +383,38 @@ h1, h2, h3, h4, h5, h6 {
 	transition: border linear 0.2s, box-shadow linear 0.2s;
 }
 
-.search-btn{
+#search-form .form-text {
+	width: 350px;
+}
+
+#search-form {
+	font-family: "GE Dinar One";
+}
+
+#search-form #edit-basic {
+	width: 100%;
+	float: right;
+	overflow: hidden;
+	height: 71px;
+}
+
+fieldset.search-advanced {
+	float: right;
+	width: 95%;
+	margin: 5px 25px 5px 10px;
+	padding: 0;
+}
+
+fieldset.search-advanced .fieldset-wrapper .criterion {
+	width: 422px;
+	margin-left: 1em;
+}
+
+fieldset.search-advanced .fieldset-wrapper .form-item {
+	float: right;
+}
+
+.search-btn, .region-search .form-submit, #search-form .form-submit {
 	background: none;
 	float: right;
 	position: relative;
@@ -394,6 +426,39 @@ h1, h2, h3, h4, h5, h6 {
 	height: 32px;
 	display: block;
 	cursor: pointer;
+	text-indent: -9999px;
+}
+
+.region-search {
+	float: right;
+}
+
+.content h2 {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*.content ul {
+	float: right;
+	width: 90%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}*/
+
+#search-form label {
+	display: block;
+	padding-right: 25px;
+}
+
+#search-form .form-type-checkbox {
+	margin-left: 10px;
+}
+
+#search-form .form-type-checkbox label {
+	display: inline;
+	margin-left: 5px;
+	padding: 0 3px;
 }
 
 .publishing-story{
@@ -449,6 +514,13 @@ form.webform-client-form .form-text {
 	padding: 0 10px;
 	border: 0;
 }
+form.webform-client-form #edit-submitted-contact-country {
+	background: url("images/text-input.jpg") no-repeat;
+	width: 235px;
+	height: 37px;
+	padding: 0 10px;
+	border: 0;
+}
 form.webform-client-form label {
 	display: inline-block;
 	margin-right: 1em;
@@ -458,8 +530,20 @@ form.webform-client-form label {
 	font-family: "GE Dinar One";
 	color: #999;
 }
+#webform-client-form-29 label {
+	width: 130px !important;
+}
+#webform-client-form-29 .textarea-processed {
+	display: inline-block;
+}
+#webform-client-form-29 #edit-submitted-contact-message {
+	width: 330px;
+}
 form.webform-client-form .form-actions {
 	padding-right: 220px;
+}
+#webform-client-form-29 .form-actions {
+	padding-right: 172px;	
 }
 form.webform-client-form .form-actions input {
 	background: url("images/submit-btn.jpg") no-repeat;
@@ -468,7 +552,13 @@ form.webform-client-form .form-actions input {
 	text-indent: -9999px;
 	display: inline-block;
 }
-
+form#webform-client-form-29 .form-actions input {
+	background: url("images/send.jpg") no-repeat;
+	width: 62px;
+	height: 32px;
+	text-indent: -9999px;
+	display: inline-block;
+}
 /* find story page style */
 #container .big-section .box {
 	width: 292px;
@@ -550,4 +640,54 @@ ul.tree li img {
 	right: 0;
 	top: 0;
 	display: none;
+}
+
+/* Search Results Display Suite */
+.ds-2col {
+	width: 285px;
+	float: right;
+	height: 133px;
+	background: #f3f3f3;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.ds-2col > .group-left {
+float: right;
+width: 123px;
+margin-left: 15px;
+}
+.ds-2col > .group-right .title a {
+	font-family: "GE Dinar One";
+	font-size: 16px;
+	color: #004d6d;
+	display: inline-block;
+	padding: 5px 0 0 5px;
+}
+.ds-2col > .group-right .field-name-field-manchet {
+	width: 135px;
+	display: block;
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+}
+.ds-search-extra {
+	padding: 15px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Views Bulk Operations */
+#views-form-content-needs-approval-page table {
+	width: 100%;
+}
+#views-form-content-needs-approval-page table td,
+#views-form-content-needs-approval-page table th {
+	padding: 10px;
+}
+#views-form-content-needs-approval-page select {
+	padding: 8px 20px;
+}
+#views-form-content-needs-approval-page .form-submit {
+	padding: 5px 10px;
 }

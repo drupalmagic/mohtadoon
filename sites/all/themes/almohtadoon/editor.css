@@ -12,3 +12,9 @@
 .questionanswer {
 	padding: 5px 15px;
 }
+.big_title_gray{
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	color: #999;
+}

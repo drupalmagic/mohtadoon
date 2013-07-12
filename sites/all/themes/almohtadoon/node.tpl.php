@@ -93,22 +93,15 @@
   <script language="javascript" type="text/javascript" src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
   <div id="fb-root"></div>
 
-  <script>!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-      if(!d.getElementById(id)){js=d.createElement(s);
-      js.id=id;js.src="https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js,fjs);
-      }
-  }(document,"script","twitter-wjs");</script>
-  <div class="node-sharing">
-    <span>
-      <fb:share-button type="button_count" href="<?php print url('node/'.arg(1), array('absolute' => true)); ?>"></fb:share-button>
-    </span>
-    <span>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="<?php print url('node/'.arg(1), array('absolute' => true)); ?>" data-text="<?php print $title; ?> <?php print url('node/'.arg(1), array('absolute' => true)); ?>" data-via"almohtadon">Tweet</a>
-    </span>
+  <?php if(arg(1) != 28 && arg(1) != 29): ?>
+  <div style="margin: 10px 0;">
+    <span class='st_facebook_hcount' displayText='Facebook'></span>
+    <span class='st_twitter_hcount' displayText='Tweet'></span>
+    <span class='st_googleplus_hcount' displayText='Google +'></span>
+    <span class='st_fblike_hcount' displayText='Facebook Like'></span>
   </div>
-
+  <?php endif; ?>
+  
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.

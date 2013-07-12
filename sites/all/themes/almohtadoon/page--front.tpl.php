@@ -31,12 +31,7 @@
     <?php if($page['search']): ?>
       <?php print render($page['search']); ?>
     <?php endif; ?>
-  	<form>
-          <input type="text" name="search" class="search-box" />
-          <input type="submit" name="submit" class="search-btn" value=" " />
-      </form>
-      
-      <a href="" class="publishing-story"></a>
+      <a href="<?php print url('node/add/stories', array('absolute' => true)); ?>" class="publishing-story"></a>
   </div>
 
   <div id="container">

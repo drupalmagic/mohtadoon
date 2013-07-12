@@ -51,8 +51,10 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></SCRIPT>
-<script type="text/javascript">stLight.options({publisher: "ur-1d422fd0-11ae-ccb9-37e0-80d28bf6b9e", doNotHash: false, doNotCopy: false, hashAddressBar: false});</SCRIPT>
+
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></SCRIPT>
+<script type="text/javascript">stLight.options({publisher: "ur-2db1a5a2-797-727f-7541-42b412e6d037", doNotHash: false, doNotCopy: false, hashAddressBar: false});</SCRIPT>
+
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">

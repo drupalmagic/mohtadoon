@@ -1,0 +1,132 @@
+
+/* Node From */
+.node-form {
+	width: 45em;	margin: 0 auto;
+}
+.wysiwyg-toggle-wrapper, #edit-field-body-und-0-format {
+	display: none;
+}
+.node-form input, .node-form select, .node-form textarea {
+	margin:0; padding:0; font-size:0.85em; outline:none;
+	font-family:inherit;	
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	box-sizing:border-box;}
+
+/* ----------------------------------------------  Inputs, textareas and selects  ---------------------------------------------- */
+.node-form input[type="text"], .node-form textarea, .node-form select, .node-form div.styled, .node-form input[type="file"] {  
+	width:30em; border-radius:2px; border: solid 1px #ccc; padding:0.4em;}
+
+#edit-submitted-contact-country {
+	background: white url(formelements-select.png) no-repeat left center;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.node-form div.styled, .node-form select, .node-form input[type="submit"], .node-form input[type="button"], 
+.node-form input[type="file"]:after {
+	background: white url(formelements-select.png) no-repeat left center;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);}	
+
+.node-form input[type="text"], .node-form textarea, .node-form input[type="file"] { 
+	background-color: #f5f5f5;
+	-webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);}
+
+.node-form .ie9 input[type="text"] { line-height:normal; } /* Get the stuff to line up right */
+
+.node-form textarea { width:100%; height:10em; }
+
+/* ----------------------------------------------  Select menu  ---------------------------------------------- */
+
+/* For IE and Firefox */
+
+.node-form div.styled { overflow:hidden; padding:0; margin:0; }
+	
+.node-form .ie7 div.styled {border:none;}
+
+.node-form div.styled select {	
+	width:115%; background-color:transparent; background-image:none;
+	-webkit-appearance: none; border:none; box-shadow:none;}
+	
+.node-form .ie7 div.styled select {
+		width:100%; background-color:#fff; border: solid 1px #ccc; 
+		padding:0.3em 0.5em;}	
+
+/* ----------------------------------------------  File field  ----------------------------------------------  */
+
+/* Webkit Only */
+
+.node-form input[type="file"] { 
+	position: relative; 
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;	width: 40%;	padding:0;}
+	
+.node-form input[type=file]::-webkit-file-upload-button {
+	width: 0; padding: 0; margin: 0;-webkit-appearance: none; border: none;}	
+	
+.node-form input[type="file"]:after {
+	content: 'Upload File';
+	margin:0 0 0 0.5em;
+	display: inline-block; position: relative;
+	background:white url(formelements-select.png) no-repeat center left;
+	padding:0.3em 0.5em; border: solid 1px #ccc !important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2); 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	border-radius:4px;}	
+	
+	
+.node-form input[type="file"]:active:after {box-shadow:none;}
+
+
+/* ----------------------------------------------  Checkboxes and Radio inputs  ----------------------------------------------  */	
+	
+input[type="radio"], 
+input[type="checkbox"] { position: absolute; left: -999em; }
+	
+label:before { 
+	position: relative; top:0.25em; left:-2px; 
+	content:''; width:25px; height:25px;
+	background-image:url(formelements.png); }
+
+input[type="checkbox"] + label:before { background-position: 0 -25px;}
+input[type="checkbox"]:checked + label:before {background-position: 0 0 ; }
+	 
+input[type="radio"] + label:before { background-position: -25px -25px;}	 	
+input[type="radio"]:checked + label:before { background-position: -25px 0;}
+
+	/* Remove the custom styling for IE 7-8 */
+	
+	.ie8 label:before { display:none; content:none; }
+	
+	.ie8 input[type="checkbox"],
+	.ie8 input[type="radio"],
+	.ie7 input[type="checkbox"],
+	.ie7 input[type="radio"]{ 
+		position: static; left:0; }
+	
+	.ie8 input[type="checkbox"],
+	.ie8 input[type="radio"] { 
+		position:relative; top:5px; margin-right:0.5em;}	
+		
+.node-form input[type="text"]:focus, textarea:focus {
+	border-color:#000;
+	}
+
+/* ---------------------------------------------- Form Submit and Next buttons ---------------------------------------------- */	
+
+.node-form input[type="submit"], 
+.node-form input[type="button"] { 
+	padding:0.5em 1em; line-height:1em; cursor:pointer;
+	border-radius:4px; color:#000; font-weight:bold; font-size:inherit;
+	border:solid 1px #ccc;	box-shadow:0 1px 5px rgba(0,0,0,0.2);
+	background-position: center bottom;}
+	
+	/* Gradient Generator by : http://www.colorzilla.com/gradient-editor/ */
+	
+.node-form input[type="submit"]:active, 
+.node-form input[type="button"]:active {-webkit-box-shadow: none; box-shadow:none;}
+	
+	/* IE7 needs you to change the background to transparent when using image background for submit buttons */	
