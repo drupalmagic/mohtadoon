@@ -694,13 +694,17 @@ margin-left: 15px;
 
 
 /* Node admin content table */
-#node-admin-content table, #taxonomy-overview-vocabularies table {
+#node-admin-content table, 
+#taxonomy-overview-vocabularies table,
+#taxonomy-overview-terms table{
 	width: 100%;
 	font-family: "GE Dinar One";
 }
 #node-admin-content table th,
-#taxonomy-overview-vocabularies table th, 
+#taxonomy-overview-vocabularies table th,
+#taxonomy-overview-terms table th,
 #node-admin-content table td,
-#taxonomy-overview-vocabularies table td{
+#taxonomy-overview-vocabularies table td,
+#taxonomy-overview-terms table td {
 	padding: 5px 10px;
 }
