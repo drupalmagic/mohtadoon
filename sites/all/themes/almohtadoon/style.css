@@ -691,3 +691,13 @@ margin-left: 15px;
 #views-form-content-needs-approval-page .form-submit {
 	padding: 5px 10px;
 }
+
+
+/* Node admin content table */
+#node-admin-content table {
+	width: 100%;
+	font-family: "GE Dinar One";
+}
+#node-admin-content table th, #node-admin-content table td {
+	padding: 5px 10px;
+}
