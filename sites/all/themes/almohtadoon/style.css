@@ -708,3 +708,11 @@ margin-left: 15px;
 #taxonomy-overview-terms table td {
 	padding: 5px 10px;
 }
+
+#taxonomy-form-term #edit-description-format,
+#taxonomy-form-term #edit-path{
+	display: none;
+}
+#taxonomy-form-term .form-submit {
+	padding: 5px 15px;
+}
