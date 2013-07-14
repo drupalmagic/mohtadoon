@@ -4,6 +4,15 @@
 @font-face
 {
 	font-family: "hacen saudi arabia";
+	src: url('fonts/hacen_saudi_arabia.otf'),
+			 url('fonts/hacen_saudi_arabia.ttf'),
+			 url('fonts/hacen_saudi_arabia.woff'),
+			 url('fonts/hacen_saudi_arabia.svg');
+}
+
+@font-face
+{
+	font-family: "HelveticaNeue";
 	src: url('fonts/HelveticaNeueW23-Reg.otf'),
 			 url('fonts/HelveticaNeueW23-Reg.ttf'),
 			 url('fonts/HelveticaNeueW23-Reg.woff'),
