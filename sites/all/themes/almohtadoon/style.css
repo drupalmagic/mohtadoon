@@ -3,8 +3,9 @@
 
 @font-face
 {
-	font-family: "GE Dinar One";
-	src: url('GE_Dinar_One/GE_Dinar_One_Medium.otf');
+	font-family: "hacen saudi arabia";
+	src: url('fonts/hacen_saudi_arabia.otf'),
+			 url('fontshacen_saudi_arabia.eot');
 }
 
 *{
@@ -23,7 +24,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 	color: #004d6d;
 }
 
@@ -62,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-network a{
-	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	position: relative;
 	top: 7px;
 	right: 10px;
@@ -278,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #container .right-section .title{
-	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	color: #004d6d;
 	font-weight: normal;
@@ -310,14 +311,14 @@ h1, h2, h3, h4, h5, h6 {
 	float: right;
 	position: relative;
 	top: 6px;
-	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	right: 10px;
 	width: 135px;
 }
 
 #container .left-section .box .title a {
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 15px;
+	font-weight: normal;
 	text-decoration: underline;
 	color: #004d6d;
 }
@@ -388,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #search-form {
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 }
 
 #search-form #edit-basic {
@@ -527,7 +528,7 @@ form.webform-client-form label {
 	width: 177px !important;
 	text-align: left;
 	margin-left: 20px;
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 	color: #999;
 }
 #webform-client-form-29 label {
@@ -629,7 +630,7 @@ form#webform-client-form-29 .form-actions input {
 }
 ul.tree, ul.tree ul {
 	list-style: none;
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 }
 ul.tree ul {
 	margin-right: 25px;
@@ -664,7 +665,7 @@ width: 123px;
 margin-left: 15px;
 }
 .ds-2col > .group-right .title a {
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 	font-size: 16px;
 	color: #004d6d;
 	display: inline-block;
@@ -705,7 +706,7 @@ margin-left: 15px;
 #taxonomy-overview-vocabularies table,
 #taxonomy-overview-terms table{
 	width: 100%;
-	font-family: "GE Dinar One";
+	font-family: "hacen saudi arabia";
 }
 #node-admin-content table th,
 #taxonomy-overview-vocabularies table th,
