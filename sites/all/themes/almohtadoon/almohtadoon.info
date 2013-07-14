@@ -14,6 +14,7 @@ regions[header] = Header
 regions[search] = Search
 regions[mainmenu] = Main Menu
 regions[slider] = Slider
+regions[news_ticker] = News Ticker
 regions[right_side] = Right Side
 regions[front_page] = Front Page
 regions[content] = Content
