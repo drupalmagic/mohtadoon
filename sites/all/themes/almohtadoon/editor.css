@@ -6,15 +6,16 @@
 	background: #f3f3f3;
 	padding: 5px 5px 3px 5px;
 	border-right: 15px solid #b5b5b5;
-	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	color: #004d6d;
 }
 .questionanswer {
 	padding: 5px 15px;
+	font-family: "HelveticaNeue";
 }
 .big_title_gray{
 	font-size: 18px;
 	font-weight: normal;
-	font-family: "GE Dinar One", Arial, Helvetica, sans-serif;
-	color: #999;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+	color: #222;
 }

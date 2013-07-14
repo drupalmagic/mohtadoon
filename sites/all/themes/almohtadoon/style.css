@@ -546,7 +546,8 @@ form.webform-client-form label {
 	text-align: left;
 	margin-left: 20px;
 	font-family: "hacen saudi arabia";
-	color: #999;
+	color: #000;
+	font-weight: normal;
 }
 #webform-client-form-29 label {
 	width: 130px !important;
@@ -608,7 +609,7 @@ form#webform-client-form-29 .form-actions input {
 	float: right;
 	position: relative;
 	top: 18px;
-	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	font-size: 19px;
 	text-decoration: underline;
 	right: 10px;
@@ -616,18 +617,19 @@ form#webform-client-form-29 .form-actions input {
 	width: 455px;
 }
 #container .right-big-section .box .title a { 
-	font-size: 18px;
+	font-size: 22px;
 }
 #container .right-big-section .box p {
 	width: 455px;
 	display: block;
 	float: right;
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 13px;
+	font-weight: normal;
 	position: relative;
 	top: 15px;
 	right: 10px;
 	margin-top: 10px;
+	line-height: 18px
 }
 #container .right-big-section .box .sharing-buttons {
 	position: relative;
