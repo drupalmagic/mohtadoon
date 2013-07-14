@@ -29,7 +29,7 @@ body{
 	background-image: url(images/site-background.jpg);
 	background-position: top center;
 	direction: rtl;	
-	font-family: "HelveticaNeue";
+	font-family: Arial;
 	font-size: 14px;
 	overflow-x: hidden;
 }
@@ -289,6 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #container .right-section p{
 	margin-top: 3px;
+	font-family: "HelveticaNeue";
 }
 
 #container .right-section .title{
@@ -346,6 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 8px;
 	right: 10px;
 	line-height: 18px;
+	font-family: "HelveticaNeue";
 }
 
 #container .left-section .box .sharing-buttons{
