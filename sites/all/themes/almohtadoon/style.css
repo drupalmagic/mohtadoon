@@ -4,8 +4,7 @@
 @font-face
 {
 	font-family: "hacen saudi arabia";
-	src: url('fonts/hacen_saudi_arabia.otf'),
-			 url('fontshacen_saudi_arabia.eot');
+	src: url('fonts/hacen_saudi_arabia.otf');
 }
 
 *{
