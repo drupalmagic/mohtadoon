@@ -29,7 +29,7 @@ body{
 	background-image: url(images/site-background.jpg);
 	background-position: top center;
 	direction: rtl;	
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "HelveticaNeue";
 	font-size: 14px;
 	overflow-x: hidden;
 }
@@ -281,9 +281,10 @@ h1, h2, h3, h4, h5, h6 {
 	width: 290px;
 	float: right;
 	margin-right: 33px;
-	color: #575757;
-	font-weight: bold;
+	color: #000;
+	font-weight: normal;
 	font-size: 13px;
+	line-height: 18px;
 }
 
 #container .right-section p{
@@ -339,11 +340,12 @@ h1, h2, h3, h4, h5, h6 {
 	width: 135px;
 	display: block;
 	float: right;
-	font-size: 11px;
-	font-weight: bold;
-  position: relative;
-  top: 8px;
-  right: 10px;
+	font-size: 13px;
+	font-weight: normal;
+	position: relative;
+	top: 8px;
+	right: 10px;
+	line-height: 18px;
 }
 
 #container .left-section .box .sharing-buttons{
