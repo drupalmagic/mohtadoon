@@ -1,0 +1,739 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+	font-family: "hacen saudi arabia";
+	src: url('fonts/hacen_saudi_arabia.otf'),
+			 url('fonts/hacen_saudi_arabia.ttf'),
+			 url('fonts/hacen_saudi_arabia.woff'),
+			 url('fonts/hacen_saudi_arabia.svg');
+}
+
+@font-face
+{
+	font-family: "HelveticaNeue";
+	src: url('fonts/HelveticaNeueW23-Reg.otf'),
+			 url('fonts/HelveticaNeueW23-Reg.ttf'),
+			 url('fonts/HelveticaNeueW23-Reg.woff'),
+			 url('fonts/HelveticaNeueW23-Reg.svg');
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+body{
+	background-image: url(images/site-background.jpg);
+	background-position: top center;
+	direction: rtl;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "hacen saudi arabia";
+	color: #004d6d;
+	font-weight: normal;
+}
+
+#wrapper{
+	background-image: url(images/wrapper-background.png);
+	background-repeat: repeat-y;
+	width: 960px;
+	margin: 0px auto;
+}
+
+#header{
+	height: 150px;
+	display: block;
+}
+
+#header .logo{
+	background-image: url(images/almohtadoon-logo.png);
+	width: 253px;
+	height: 82px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 15px;
+	right: 20px;
+}
+
+#header .social-network{
+	float: left;
+	width: 300px;
+	height: 35px;
+	display: block;
+	background-color: #f2f2f2;
+	position: relative;
+	top: 0px;
+	left: 30px;
+}
+
+#header .social-network a{
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 7px;
+	right: 10px;
+	font-size: 14px;
+	color: #808080;
+	text-decoration: none;
+	font-weight: normal;
+	float: right;
+}
+
+#header .social-network .separator{
+	background-image: url(images/social-separator.png);
+	background-repeat: no-repeat;
+	width: 3px;
+	height: 17px;
+	position: relative;
+	top: 8px;
+	margin-right: 15px;
+	display: block;
+	float: right;
+}
+
+#header .social-network .linkedin{
+	background-image: url(images/linkedin-icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 27px;
+	height: 27px;
+	position: relative;
+	top: 4px;
+	margin-left: 5px;
+}
+#header .social-network .twitter{
+	background-image: url(images/twitter-icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 27px;
+	height: 27px;	
+	position: relative;
+	top: 4px;
+	margin-left: 5px;
+}
+#header .social-network .fb{
+	background-image: url(images/facebook-icon.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 27px;
+	height: 27px;	
+	position: relative;
+	top: 4px;
+	margin-left: 5px;
+}
+
+#header .social-network .lang-btn{
+	background-image: url(images/lang-btn-background.png);
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 28px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 4px;
+	color: #112748;
+	font-family: Trebuchet MS, Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#header .donate{
+	background-image: url(images/donate.png);
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 31px;
+	display: block;
+	float: left;
+	position: relative;
+	top: 70px;
+	left: -270px;
+}
+
+#header #menu{
+	clear: both;
+	position: relative;
+	top: 32px;
+	right: 20px;
+}
+
+#header #menu .menu-separator{
+	background-image: url(images/menu-separator.png);
+	background-repeat: no-repeat;
+	width: 2px;
+	height: 13px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#header #menu .initiative-info, #main-menu li:nth-child(1) a{
+	background-image: url(images/initiative-info-menu.png);
+	background-repeat: no-repeat;
+	width: 129px;
+	height: 24px;
+	display: block;
+	float: right;
+	position: relative;
+	top: 1px;
+	text-indent: -9999px;
+}
+
+#header #menu .choose-story, #main-menu li:nth-child(2) a{
+	background-image: url(images/choose-story-menu.png);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 25px;
+	display: block;
+	float: right;
+	position: relative;
+	text-indent: -9999px;
+	margin-right: 15px;
+}
+
+#header #menu .support-initiative, #main-menu li:nth-child(3) a{
+	background-image: url(images/support-initiative-menu.png);
+	background-repeat: no-repeat;
+	width: 103px;
+	height: 25px;
+	display: block;
+	float: right;
+	position: relative;
+	text-indent: -9999px;
+	margin-right: 15px;
+}
+
+#header #menu .repeated-questions, #main-menu li:nth-child(4) a{
+	background-image: url(images/repeated-questions-menu.png);
+	background-repeat: no-repeat;
+	width: 104px;
+	height: 26px;
+	display: block;
+	float: right;
+	position: relative;
+	top: -1px;
+	text-indent: -9999px;
+	margin-right: 15px;
+}
+
+#header #menu .contact-us, #main-menu li:nth-child(5) a{
+	background-image: url(images/contact-us-menu.png);
+	background-repeat: no-repeat;
+	width: 90px;
+	height: 26px;
+	display: block;
+	float: right;
+	position: relative;
+	top: -1px;
+	text-indent: -9999px;
+	margin-right: 15px;
+}
+
+.banner{
+	clear: both;
+	width: 948px;
+	height: 291px;
+	display: block;
+	margin: 0 auto;
+}
+
+.quran-banner{
+	background-color: #f9ffca;
+	width: 948px;
+	height: 32px;
+	display: block;
+	margin: 4px auto;
+	color: #8f7042;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.quran-banner span{
+	position: relative;
+	top: 7px;
+	right: 15px;
+}
+
+.search-bar{
+	background-color: #ebebeb;
+	width: 948px;
+	height: 50px;
+	display: block;
+	margin: -4px auto;
+}
+
+#container{
+	width: 948px;
+	margin-top: 20px;	
+}
+
+#container .right-section{
+	width: 290px;
+	float: right;
+	margin-right: 33px;
+	color: #575757;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+#container .right-section p{
+	margin-top: 3px;
+}
+
+#container .right-section .title{
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #004d6d;
+	font-weight: normal;
+}
+
+#container .left-section{
+	width: 620px;
+	float: right;
+}
+
+#container .left-section .box{
+	width: 282px;
+	height: 133px;
+	display: block;
+	background-color: #f3f3f3;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#container .left-section .box .img-place{
+	float: right;
+	width: 123px;
+	height: 133px;
+	display: block;
+	position: relative;
+}
+
+#container .left-section .box .title{
+	float: right;
+	position: relative;
+	top: 6px;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+	right: 10px;
+	width: 135px;
+}
+
+#container .left-section .box .title a {
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #004d6d;
+}
+
+#container .left-section .box p{
+	width: 135px;
+	display: block;
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+  position: relative;
+  top: 8px;
+  right: 10px;
+}
+
+#container .left-section .box .sharing-buttons{
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+
+#footer{
+	height: 40px;
+	display: block;
+	width: 920px;
+	margin: 0 auto;
+	border-top: 1px solid #dcdcdc;
+	display: block;
+}
+
+#footer .copyrights{
+	font-size: 10px;
+	color: #8c8c8c;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#footer .copyrights a{
+	color: #616060;	
+}
+
+.search-box, #search-block-form .form-text, #search-form .form-text {
+	float: right;
+	position: relative;
+	top: 9px;
+	right: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #f4f4f4;
+	background-color: #fafafa;
+	width: 530px;
+	height: 22px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.07);
+	-webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.07);
+	-moz-box-shadow: inset 0 1px 14px rgba(0, 0, 0, 0.07);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+}
+
+#search-form .form-text {
+	width: 350px;
+}
+
+#search-form {
+	font-family: "hacen saudi arabia";
+}
+
+#search-form #edit-basic {
+	width: 100%;
+	float: right;
+	overflow: hidden;
+	height: 71px;
+}
+
+fieldset.search-advanced {
+	float: right;
+	width: 95%;
+	margin: 5px 25px 5px 10px;
+	padding: 0;
+}
+
+fieldset.search-advanced .fieldset-wrapper .criterion {
+	width: 422px;
+	margin-left: 1em;
+}
+
+fieldset.search-advanced .fieldset-wrapper .form-item {
+	float: right;
+}
+
+.search-btn, .region-search .form-submit, #search-form .form-submit {
+	background: none;
+	float: right;
+	position: relative;
+	top: 9px;
+	right: 25px;
+	background-image: url(images/search-btn.png);
+	background-repeat: no-repeat;
+	width: 61px;
+	height: 32px;
+	display: block;
+	cursor: pointer;
+	text-indent: -9999px;
+}
+
+.region-search {
+	float: right;
+}
+
+.content h2 {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+	font-weight: normal;
+}
+
+/*.content ul {
+	float: right;
+	width: 90%;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}*/
+
+#search-form label {
+	display: block;
+	padding-right: 25px;
+}
+
+#search-form .form-type-checkbox {
+	margin-left: 10px;
+}
+
+#search-form .form-type-checkbox label {
+	display: inline;
+	margin-left: 5px;
+	padding: 0 3px;
+}
+
+.publishing-story{
+	background: none;
+	float: left;
+	position: relative;
+	left: 10px;
+	top: 8px;
+	background-image: url(images/publishing-story.png);
+	width: 151px;
+	height: 37px;
+	display: block;
+}
+
+div.sharing-buttons iframe {
+	width: 85px !important;
+}
+#content {
+	padding: 22px;
+	width: 920px;
+}
+.node-stories .field-name-field-image, .node-news .field-name-field-image {
+	float: left; margin: 0 20px 20px 0;
+}
+.node .field {
+	font-size: 15px;	font-weight: bold;
+}
+.node p {
+	margin-bottom: 10px;	line-height: 1.5em;
+}
+.submitted {
+	font-family: tahoma; font-size: 12px; padding: 15px 5px;
+}
+.node-stories .field-type-taxonomy-term-reference, .node-stories .field-name-field-age {
+	display: inline-block; margin-right: 15px; font-weight: bold;
+}
+.node-stories .field-type-taxonomy-term-reference .field-label, .node-stories .field-name-field-age .field-label {
+	color: #004d6d;
+}
+.node-stories .ffield-name-field-body {
+	margin-top: 10px;
+}
+.form-text, textarea {
+	border: 1px solid #999;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+/* donation form */
+form.webform-client-form .form-text {
+	background: url("images/text-input.jpg") no-repeat;
+	width: 215px;
+	height: 37px;
+	padding: 0 10px;
+	border: 0;
+}
+form.webform-client-form #edit-submitted-contact-country {
+	background: url("images/text-input.jpg") no-repeat;
+	width: 235px;
+	height: 37px;
+	padding: 0 10px;
+	border: 0;
+}
+form.webform-client-form label {
+	display: inline-block;
+	margin-right: 1em;
+	width: 177px !important;
+	text-align: left;
+	margin-left: 20px;
+	font-family: "hacen saudi arabia";
+	color: #999;
+}
+#webform-client-form-29 label {
+	width: 130px !important;
+}
+#webform-client-form-29 .textarea-processed {
+	display: inline-block;
+}
+form.webform-client-form .form-actions {
+	padding-right: 220px;
+}
+#webform-client-form-29 .form-actions {
+	padding-right: 172px;	
+}
+form.webform-client-form .form-actions input {
+	background: url("images/submit-btn.jpg") no-repeat;
+	width: 57px;
+	height: 28px;
+	text-indent: -9999px;
+	display: inline-block;
+}
+form#webform-client-form-29 .form-actions input {
+	background: url("images/send.jpg") no-repeat;
+	width: 62px;
+	height: 32px;
+	text-indent: -9999px;
+	display: inline-block;
+}
+#webform-component-contact-message .form-textarea-wrapper {
+	display: inline-block;
+}
+#edit-submitted-contact-message {
+	background: url("images/text-aria.jpg") no-repeat;
+	width: 333px;
+	height: 130px;
+	border: 0;
+	background-size: 332px;
+}
+/* find story page style */
+#container .big-section .box {
+	width: 292px;
+}
+#container .right-big-section .box {
+	width: 701px;
+	height: 240px;
+	display: block;
+	background-color: #f3f3f3;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+#container .right-big-section .box .img-place {
+	float: right;
+	width: 220px;
+	height: 240px;
+	display: block;
+	position: relative;
+}
+#container .right-big-section .box .title {
+	float: right;
+	position: relative;
+	top: 18px;
+	font-family: GE Dinar One, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	text-decoration: underline;
+	right: 10px;
+	color: #004d6d;
+	width: 455px;
+}
+#container .right-big-section .box .title a { 
+	font-size: 18px;
+}
+#container .right-big-section .box p {
+	width: 455px;
+	display: block;
+	float: right;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: 15px;
+	right: 10px;
+	margin-top: 10px;
+}
+#container .right-big-section .box .sharing-buttons {
+	position: relative;
+	top: 30px;
+	right: 10px;
+}
+/* node share btns */
+.node-sharing {
+	margin-bottom: 10px;
+}
+
+/* filters block */
+#block-block-4 {
+	float: right;
+	margin-right: 20px;
+	width: 190px;
+}
+ul.tree, ul.tree ul {
+	list-style: none;
+	font-family: "hacen saudi arabia";
+}
+ul.tree ul {
+	margin-right: 25px;
+}
+ul.tree > li span {
+	cursor: pointer;
+	background: url(images/toggle-small-expand.png) right top no-repeat;
+	padding-right: 20px;
+}
+ul.tree li, ul.tree li a {
+	color: #999; text-decoration: none;
+}
+ul.tree li img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+/* Search Results Display Suite */
+.ds-2col {
+	width: 285px;
+	float: right;
+	height: 133px;
+	background: #f3f3f3;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.ds-2col > .group-left {
+float: right;
+width: 123px;
+margin-left: 15px;
+}
+.ds-2col > .group-right .title a {
+	font-family: "hacen saudi arabia";
+	font-size: 16px;
+	color: #004d6d;
+	display: inline-block;
+	padding: 5px 0 0 5px;
+}
+.ds-2col > .group-right .field-name-field-manchet {
+	width: 135px;
+	display: block;
+	float: right;
+	font-size: 11px;
+	font-weight: bold;
+	position: relative;
+}
+.ds-search-extra {
+	padding: 15px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* Views Bulk Operations */
+#views-form-content-needs-approval-page table {
+	width: 100%;
+}
+#views-form-content-needs-approval-page table td,
+#views-form-content-needs-approval-page table th {
+	padding: 10px;
+}
+#views-form-content-needs-approval-page select {
+	padding: 8px 20px;
+}
+#views-form-content-needs-approval-page .form-submit {
+	padding: 5px 10px;
+}
+
+
+/* Node admin content table */
+#node-admin-content table, 
+#taxonomy-overview-vocabularies table,
+#taxonomy-overview-terms table{
+	width: 100%;
+	font-family: "hacen saudi arabia";
+}
+#node-admin-content table th,
+#taxonomy-overview-vocabularies table th,
+#taxonomy-overview-terms table th,
+#node-admin-content table td,
+#taxonomy-overview-vocabularies table td,
+#taxonomy-overview-terms table td {
+	padding: 5px 10px;
+}
+
+#taxonomy-form-term #edit-description-format,
+#taxonomy-form-term #edit-path{
+	display: none;
+}
+#taxonomy-form-term .form-submit {
+	padding: 5px 15px;
+}
