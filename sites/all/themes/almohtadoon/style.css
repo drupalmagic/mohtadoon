@@ -26,6 +26,7 @@ body{
 h1, h2, h3, h4, h5, h6 {
 	font-family: "hacen saudi arabia";
 	color: #004d6d;
+	font-weight: normal;
 }
 
 #wrapper{
@@ -438,6 +439,7 @@ fieldset.search-advanced .fieldset-wrapper .form-item {
 	float: right;
 	width: 100%;
 	margin-top: 20px;
+	font-weight: normal;
 }
 
 /*.content ul {
