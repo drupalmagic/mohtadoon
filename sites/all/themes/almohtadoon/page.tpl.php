@@ -1,6 +1,15 @@
 <?php if(arg(0) == 'node' && (arg(1) == 'add' || arg(1) == 'edit' )): ?>
 <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/form.css">
 <?php endif; ?>
+<?php if(arg(0) == 'search' && arg(1) == 'content') {
+  print '<style type="text/css">';
+  print '#block-system-main ul {
+    direction: rtl;
+  }
+  ';
+  print '</style>';
+}
+?>
 <div id="wrapper">
   <div id="header">
   	<div class="logo">
