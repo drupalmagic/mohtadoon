@@ -4,7 +4,7 @@
 <?php if(arg(0) == 'search' && arg(1) == 'content') {
   print '<style type="text/css">';
   print '#block-system-main ul {
-    direction: rtl;
+    direction: rtl; padding-right: 25px;
   }
   ';
   print '</style>';
