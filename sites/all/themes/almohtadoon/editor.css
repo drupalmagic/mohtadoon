@@ -19,3 +19,17 @@
 	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	color: #222;
 }
+.blue_right_title {
+	color: #004d6d;
+	font-size: 18px;
+	text-align: right;
+	font-weight: normal;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+}
+.blue_center_title {
+	color: #004d6d;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
+}
