@@ -1,4 +1,3 @@
-
 /**
  * Generic elements.
  */
@@ -989,8 +988,9 @@ div.add-or-remove-shortcuts {
 }
 
 /* hide non important form fields */
-#taxonomy-form-term #edit-description-format,
+#taxonomy-form-term .form-textarea-wrapper,
 #taxonomy-form-term #edit-path,
+#taxonomy-form-term #edit-metatags,
 #taxonomy-form-term #edit-relations {
   display: none;
 }
