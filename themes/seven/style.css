@@ -987,3 +987,10 @@ div.add-or-remove-shortcuts {
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
+
+/* hide non important form fields */
+#taxonomy-form-term #edit-description-format,
+#taxonomy-form-term #edit-path,
+#taxonomy-form-term #edit-relations {
+  display: none;
+}
