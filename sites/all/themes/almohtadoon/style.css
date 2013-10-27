@@ -169,11 +169,12 @@ h1, h2, h3, h4, h5, h6 {
 	top: 142px;
 	right: 140px;
 	border-radius: 5px;
-	padding: 0;
+	padding: 0 20px 0 0;
 }
 
 #menu li {
 	float: right;
+	padding: 0;
 }
 
 #menu li a {
@@ -183,7 +184,24 @@ h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 	font-family: "hacen saudi arabia", Arial, Helvetica, sans-serif;
 	margin: 0;
-	background: background: url(images/menu_new_hover.png) repeat-x;
+	padding: 0 10px;
+	border-left: 1px solid #555;
+}
+#menu li.last a {
+	border: 0;
+}
+
+#menu li.last a {
+	background: url(images/donating.png) repeat-x;
+	border-radius: 5px 0px 0px 5px;
+}
+
+#menu li a:hover{
+	background: url(images/menu_new_hover.png) repeat-x;
+}
+
+#menu li.active a {
+	background: url(images/menu_new_hover.png) repeat-x;
 }
 
 /*#header #menu .menu-separator{
