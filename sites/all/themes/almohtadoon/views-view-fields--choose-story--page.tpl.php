@@ -1,6 +1,4 @@
 <?php if($id == 1){ ?>
-
-
 <div class="right-big-section" style="width: 940px; margin-bottom: 20px; margin-right: 20px;">  
 
 <div class="box" style="position: relative; float: left; margin-left: 23px;">

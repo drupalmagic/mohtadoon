@@ -4,7 +4,7 @@
 @font-face
 {
 	font-family: "hacen saudi arabia";
-	src: url('fonts/hacen_saudi_arabia.otf'),
+	src: url('fonts/hacen_saudi_arabia.eot'),
 			 url('fonts/hacen_saudi_arabia.ttf'),
 			 url('fonts/hacen_saudi_arabia.woff'),
 			 url('fonts/hacen_saudi_arabia.svg');
@@ -13,7 +13,7 @@
 @font-face
 {
 	font-family: "HelveticaNeue";
-	src: url('fonts/HelveticaNeueW23-Reg.otf'),
+	src: url('fonts/HelveticaNeueW23-Reg.eot'),
 			 url('fonts/HelveticaNeueW23-Reg.ttf'),
 			 url('fonts/HelveticaNeueW23-Reg.woff'),
 			 url('fonts/HelveticaNeueW23-Reg.svg');
@@ -274,7 +274,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #container{
 	width: 948px;
-	margin-top: 20px;	
+	margin-top: 20px;
+	overflow: hidden;	
+	position: relative;
 }
 
 #container .right-section{
@@ -746,4 +748,11 @@ margin-left: 15px;
 /* about the site (sidebar block) */
 #block-block-1 {
 	margin-bottom: 20px;
+}
+/* choose story filters block */
+#block-views-exp-choose-story-page {
+	position: absolute;
+	right: 0;
+	width: 210px;
+	top: 0;
 }
