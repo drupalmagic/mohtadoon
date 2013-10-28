@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 	border: 0;
 }
 
-#menu li.last a {
+#menu li.last a, #menu li.last.active a {
 	background: url(images/donating.png) repeat-x;
 	border-radius: 5px 0px 0px 5px;
 }
