@@ -10,6 +10,11 @@
   print '</style>';
 }
 ?>
+<style type="text/css">
+  .quran-banner{ 
+    padding-top: 20px;
+  }
+</style>
 <div id="wrapper">
   <div id="menu">
     <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
