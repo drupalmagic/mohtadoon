@@ -1,3 +1,8 @@
+<style type="text/css">
+  .quran-banner{ 
+    padding-top: 20px;
+  }
+</style>
 <link href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.css" rel="stylesheet"/>
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
 <script type="text/javscript">
