@@ -2,6 +2,18 @@
   .quran-banner{ 
     padding-top: 20px;
   }
+  #edit-field-reason-to-islam-tid, #edit-field-nationality-tid, #edit-field-storyboards-tid{
+  	width: 200px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	padding: 5px;
+  }
+  #edit-field-gender-tid, #edit-field-profession-tid-wrapper{
+  	width: 95px;
+  	font-size: 16px;
+  	font-weight: bold;
+  	padding: 5px;
+  }
 </style>
 <link href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.css" rel="stylesheet"/>
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
