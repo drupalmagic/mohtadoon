@@ -9,7 +9,7 @@
   	padding: 5px;
   }
   #edit-field-gender-tid, #edit-field-profession-tid, #edit-field-religion-tid, #edit-field-era-tid {
-  	width: 95px;
+  	width: 91px;
   	font-size: 16px;
   	font-weight: bold;
   	padding: 5px;
