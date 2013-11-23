@@ -7,14 +7,14 @@
   	font-size: 13px;
   	font-weight: bold;
   	padding: 2px;
-  	margin-bottom: 3px;
+  	margin-bottom: 8px;
   }
   #edit-field-gender-tid, #edit-field-profession-tid, #edit-field-religion-tid, #edit-field-era-tid {
   	width: 91px;
   	font-size: 13px;
   	font-weight: bold;
   	padding: 2px;
-  	margin-bottom: 3px;
+  	margin-bottom: 8px;
   }
 </style>
 <link href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.css" rel="stylesheet"/>
