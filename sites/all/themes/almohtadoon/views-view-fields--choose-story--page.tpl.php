@@ -1,3 +1,11 @@
+<?php 
+	$tiny_url = file_get_contents('http://tinyurl.com/api-create.php?url='.strip_tags($fields['path']->content)); 
+	$twitter_share_url = 'http://twitter.com/home?status=';
+	$twitter_share_url .= urlencode(strip_tags($fields['title']->content));
+	$twitter_share_url .= urlencode($tiny_url);
+
+	$facebook_share_url = 'http://www.facebook.com/share.php?u='.urlencode($tiny_url).'&title='.urlencode(strip_tags($fields['title']->content));
+?>
 <?php if($id == 1){ ?>
 <div class="right-big-section" style="width: 940px; margin-bottom: 20px; margin-right: 20px;">  
 
@@ -11,10 +19,14 @@
     <p><?php print strip_tags($fields['field_manchet']->content); ?></p>
      <div class="sharing-buttons" style="position: absolute; top: 200px; width: 197px; right: 245px; height: 30px;">
 				<span style="float: right;">
-					<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="<?php print strip_tags($fields['path']->content); ?>" data-text="<?php print strip_tags($fields['title']->content) . ' ' . strip_tags($fields['path']->content); ?>" data-via"almohtadon">Tweet</a>
+					<a href="<?php print $twitter_share_url; ?>" target="_blank">
+						<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/tshare.jpg'; ?>">
+					</a>
 				</span>
 				<span style="float: right; margin-top: 2px; margin-right: 7px;">
-					<fb:share-button type="button_count" href="<?php print strip_tags($fields['path']->content); ?>"></fb:share-button>
+					<a href="<?php print $facebook_share_url; ?>" target="_blank">
+						<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/fshare.jpg'; ?>">
+					</a>
 				</span>
 			</div>
 </div>
@@ -27,12 +39,16 @@
 	<div class="img-place"><?php print strip_tags($fields['field_image']->content, '<img>, <a>'); ?></div>
 	<div class="title"><?php print strip_tags($fields['title']->content, '<a>'); ?></div>
 	<p style="width: 150px;"><?php print strip_tags($fields['field_manchet']->content); ?></p>
-	<div class="sharing-buttons" style="position: absolute; top: 108px; width: 197px; right: 55px; height: 30px;">
+	<div class="sharing-buttons" style="position: absolute; top: 108px; width: 125px; right: 166px; height: 30px;">
 		<span style="float: right;">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-url="<?php print strip_tags($fields['path']->content); ?>" data-text="<?php print strip_tags($fields['title']->content) . ' ' . strip_tags($fields['path']->content); ?>" data-via"almohtadon">Tweet</a>
+			<a href="<?php print $twitter_share_url; ?>" target="_blank">
+				<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/tshare.jpg'; ?>">
+			</a>
 		</span>
 		<span style="float: right; margin-top: 2px; margin-right: 7px;">
-			<fb:share-button type="button_count" href="<?php print strip_tags($fields['path']->content); ?>"></fb:share-button>
+			<a href="<?php print $facebook_share_url; ?>" target="_blank">
+				<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/fshare.jpg'; ?>">
+			</a>
 		</span>
 	</div>
 </div>
