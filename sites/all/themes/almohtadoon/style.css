@@ -101,7 +101,16 @@ h1, h2, h3, h4, h5, h6 {
   float: right;
 }
 
-#header .social-network .linkedin{
+#header .social-network .instagram{
+  background-image: url(images/Instagram-Icon-27.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 27px;
+  height: 27px;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+}#header .social-network .linkedin{
   background-image: url(images/linkedin-icon.png);
   background-repeat: no-repeat;
   display: block;
