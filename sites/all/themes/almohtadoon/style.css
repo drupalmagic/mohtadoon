@@ -642,13 +642,17 @@ form#webform-client-form-29 .form-actions input {
 #container .big-section .box {
   width: 292px;
 }
+#block-system-main .view-choose-story .box {
+  width: 330px;
+  margin: 10px 0 10px 20px;
+}
 #container .right-big-section .box {
   width: 701px;
   height: 240px;
   display: block;
   background-color: #f3f3f3;
   float: right;
-  margin-right: 20px;
+  margin-right: 0px;
   margin-bottom: 20px;
 }
 #container .right-big-section .box .img-place {
@@ -806,4 +810,19 @@ margin-left: 15px;
   right: 0;
   width: 210px;
   top: 0;
+}
+/* change choose story page */
+#block-system-main .view-choose-story {
+  width: 701px;
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+#block-system-main .view-choose-story .right-big-section {
+  width: 701px !important;
+  margin-top: 20px !important;
+  margin-right: 0px !important;
+  float: left;
+  margin-bottom: 0 !important;
 }
