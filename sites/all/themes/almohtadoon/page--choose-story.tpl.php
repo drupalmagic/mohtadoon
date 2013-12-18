@@ -19,11 +19,14 @@
 </style>
 <link href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.css" rel="stylesheet"/>
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
-<script type="text/javscript">
-  (function ($) {
-    alert('zekry');
-  }(jQuery));
-</script>
+<?php
+$safari = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
+if($safari){
+  echo '<style>';
+    echo '#block-views-exp-choose-story-page { right: 22px; }'
+  echo '</style>'
+}
+?>
 <div id="wrapper">
   <div id="menu">
     <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
