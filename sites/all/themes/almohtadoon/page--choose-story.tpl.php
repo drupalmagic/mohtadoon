@@ -1,4 +1,4 @@
-<style type="text/css">
+<style type="text/css">
   .quran-banner{ 
     padding-top: 20px;
   }
@@ -21,7 +21,7 @@
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
 <script type="text/javscript">
   (function ($) {
-    console.log($.browser);
+    alert('zekry');
   }(jQuery));
 </script>
 <div id="wrapper">
