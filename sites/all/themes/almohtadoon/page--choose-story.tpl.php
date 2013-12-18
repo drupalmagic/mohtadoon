@@ -1,4 +1,4 @@
-<style type="text/css">
+<style type="text/css">
   .quran-banner{ 
     padding-top: 20px;
   }
@@ -19,20 +19,15 @@
 </style>
 <link href="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.css" rel="stylesheet"/>
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
-
 <?php 
-
 $safariorchrome = strpos($ua, 'Safari') ? true : false;     // Browser is either Safari or Chrome (since Chrome User-Agent includes the word 'Safari')
 $chrome = strpos($ua, 'Chrome') ? true : false;             // Browser is Chrome
-
 if($safariorchrome == true AND $chrome == false){
 	echo '<style type="text/css">
 		#block-views-exp-choose-story-page { right: 21px; }
 	</style>';
 }
-
 ?>
-
 <div id="wrapper">
   <div id="menu">
     <?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
