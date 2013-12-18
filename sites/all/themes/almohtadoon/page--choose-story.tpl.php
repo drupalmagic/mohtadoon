@@ -21,7 +21,7 @@
 <script src="<?php print $GLOBALS['base_url']; ?>/sites/all/themes/almohtadoon/select2/select2.js"></script>
 <?php
 $safari = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
-if($safari){
+if(true === $safari){
   echo '<style>';
     echo '#block-views-exp-choose-story-page { right: 22px; }';
   echo '</style>';
