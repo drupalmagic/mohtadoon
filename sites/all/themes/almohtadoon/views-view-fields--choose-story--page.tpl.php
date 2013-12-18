@@ -7,7 +7,7 @@
 	$facebook_share_url = 'http://www.facebook.com/share.php?u='.urlencode($tiny_url).'&title='.urlencode(strip_tags($fields['title']->content));
 ?>
 <?php if($id == 1){ ?>
-<div class="right-big-section" style="width: 940px; margin-bottom: 20px; margin-right: 20px;">  
+<div class="right-big-section" style="width: 7010px; margin-bottom: 20px; margin-right: 20px;">  
 
 <div class="box" style="position: relative; float: left; margin-left: 23px;">
   <div class="img-place">
@@ -37,9 +37,9 @@
 
 <div class="box" style="position: relative;">
 	<div class="img-place"><?php print strip_tags($fields['field_image']->content, '<img>, <a>'); ?></div>
-	<div class="title"><?php print strip_tags($fields['title']->content, '<a>'); ?></div>
-	<p style="width: 150px;"><?php print strip_tags($fields['field_manchet']->content); ?></p>
-	<div class="sharing-buttons" style="position: absolute; top: 108px; width: 125px; right: 166px; height: 30px;">
+	<div class="title" style="width: 190px;"><?php print strip_tags($fields['title']->content, '<a>'); ?></div>
+	<p style="width: 190px;"><?php print strip_tags($fields['field_manchet']->content); ?></p>
+	<div class="sharing-buttons" style="position: absolute; top: 102px; width: 125px; right: 195px; height: 30px;">
 		<span style="float: right;">
 			<a href="<?php print $twitter_share_url; ?>" target="_blank">
 				<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/tshare.jpg'; ?>">
