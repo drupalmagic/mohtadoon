@@ -840,3 +840,27 @@ margin-left: 15px;
   margin-bottom: 0 !important;
 }
 #block-block-5 { margin-left: 5px; }
+.node-form input[type="file"] {
+  position: relative !important;
+  -webkit-appearance: none !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  width: 295px !important;
+  padding: 0 !important;
+  direction: ltr !important;
+  text-align: right !important;
+  border-radius: 25px !important;
+}
+.node-form input[type="submit"], .node-form input[type="button"] {
+  padding: 0.4em 1em !important;
+  line-height: 1em !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  color: #000 !important;
+  font-weight: bold !important;
+  font-size: inherit !important;
+  border: solid 1px #ccc !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2) !important;
+  background-position: center bottom !important;
+  margin-right: 10px !important;
+}
