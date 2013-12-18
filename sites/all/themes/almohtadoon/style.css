@@ -807,15 +807,28 @@ margin-left: 15px;
 /* choose story filters block */
 #block-views-exp-choose-story-page {
   position: absolute;
-  right: 0;
+  right: 16;
   width: 210px;
-  top: 10px;
+  top: 18px;
+}
+#block-views-exp-choose-story-page label {
+  padding: 5px;
+  font-size: 15px;
+}
+#block-views-exp-choose-story-page select {
+  width: 200px !important;
+  padding: 4px !important;
+}
+#block-views-exp-choose-story-page .views-widget {
+  padding-bottom: 9px;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 10px;
 }
 /* change choose story page */
 #block-system-main .view-choose-story {
   width: 701px;
-  float: left;
-  margin: 0;
+  float: right;
+  margin: 0 255px 0 0;
   overflow: hidden;
   padding: 0;
 }
