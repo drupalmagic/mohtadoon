@@ -807,7 +807,7 @@ margin-left: 15px;
 /* choose story filters block */
 #block-views-exp-choose-story-page {
   position: absolute;
-  right: 16;
+  right: 16px;
   width: 210px;
   top: 18px;
 }
@@ -820,9 +820,9 @@ margin-left: 15px;
   padding: 4px !important;
 }
 #block-views-exp-choose-story-page .views-widget {
-  padding-bottom: 9px;
+  padding-bottom: 5px;
   border-bottom: 1px dashed #ccc;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 /* change choose story page */
 #block-system-main .view-choose-story {
