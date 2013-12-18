@@ -23,8 +23,8 @@
 $safari = strpos($_SERVER["HTTP_USER_AGENT"], 'Safari') ? true : false;
 if($safari){
   echo '<style>';
-    echo '#block-views-exp-choose-story-page { right: 22px; }'
-  echo '</style>'
+    echo '#block-views-exp-choose-story-page { right: 22px; }';
+  echo '</style>';
 }
 ?>
 <div id="wrapper">
