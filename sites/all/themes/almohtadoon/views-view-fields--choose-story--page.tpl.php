@@ -17,7 +17,7 @@
   </div>
     <div class="title"><?php print strip_tags($fields['title']->content, '<a>'); ?></div>
     <p><?php print strip_tags($fields['field_manchet']->content); ?></p>
-     <div class="sharing-buttons" style="position: absolute; top: 200px; width: 197px; right: 245px; height: 30px;">
+     <div class="sharing-buttons" style="position: absolute; top: 200px; width: 197px; right: 557px; height: 30px;">
 				<span style="float: right;">
 					<a href="<?php print $twitter_share_url; ?>" target="_blank">
 						<img src="<?php print $GLOBALS['base_url'] . '/sites/all/themes/almohtadoon/images/tshare.jpg'; ?>">
